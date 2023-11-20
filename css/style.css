@@ -175,7 +175,7 @@ body{
 .sfondo-pulsante{
     display: flex;
     justify-content: center;
-    background-image: url(../img/item4-big.svg);
+    background-image: url(../img/stars.svg);
 }
 
 .button-footer{
@@ -183,6 +183,7 @@ body{
     border-radius: 20px;
     border-color: transparent;
     padding: 5px 10px;
+    color:white;
 }
 
 /* Footer */ 
@@ -195,7 +196,6 @@ body{
 .footer-main{
     background-color: #23272A;
     min-height: 400px;
-    margin-bottom: 2px;
 }
 
 
@@ -208,27 +208,51 @@ body{
 .footer-box{
     min-height: 400px;
     flex-basis: 40%;
-    background-color: #F08080;
-    border: 2px dotted black;
+    margin-top: 11px;
+    border-bottom: solid #8EA1E1 2px;
+    font-size: 30px;
+    color: white;
+}
+
+.footer-font{
+    display: flex;
+    font-size: 20px;
     margin-top: 10px;
+}
+
+.blu{
+    color: #8EA1E1;
+    margin-bottom:10px;
+}
+.bandier{
+    max-height: 20px;
 }
 
 .footer-big-box{
     min-height: 400px;
     flex-basis: 60%;
-    background-color:#20B2AA;
-    border: 2px dotted #20B2AA;
     display:flex;
     margin-top: 10px;
+    border-bottom: solid #8EA1E1 2px;
 }
     
 .footer-small-box{
     min-height: 400px;
     flex-basis: 25%;
-    border: 2px dotted white;
 }
 
-
+.lista-footer{
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+ 
+.titolo-blu{
+    color:#8EA1E1;
+}
 
 /* end footer */
 
@@ -245,7 +269,6 @@ body{
 .box-end-footer{
     min-height: 40px;
     width: 100%;
-    background-color: #7FFFD4;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -254,6 +277,5 @@ body{
 
 .box{
     flex-basis:60px;
-    background-color: orange;
     min-height: 15px;
 }
