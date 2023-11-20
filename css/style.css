@@ -19,6 +19,13 @@ body{
     display:flex;
 }
 
+.paragrafo{
+    margin: 20px;
+  }
+
+  .spazio-titolo{
+    margin-top: 30px;
+  }
 
 
 /* Header */
@@ -26,12 +33,12 @@ body{
 /*  Class nav-main countainer proprietes */
 
 .nav-top{
-    background-color: #3161e0;
+    background-color: #255EE9;
     min-height: 25px;
 }
 
-/*nav countainer header*/
-.nav-cont{
+/*nav-top countainer */
+.nav-top-cont{
     
     align-items: center;
     min-height: 50px;
@@ -57,6 +64,7 @@ body{
     border-radius: 20px;
     border-color: transparent;
     padding: 5px 10px;
+    margin: 0px 10px;
 }
 .nav-box-button{
     flex-basis: 20%;
@@ -77,22 +85,39 @@ body{
 /* Class Footer countainer proprietes */
 
 .nav-footer{
-    background-color: #00008B;
-    min-height: 300px;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 450px;
 }
 
-/*footer countainer */
-.fc{
+/* nav footer countainer */
+.nav-footer-cont{
     align-items: center;
     min-height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .box-footer{
-    background-color: #EE82EE;
-    border: 2px dotted black;
+   color: white;
     min-height: 200px;
-    width: 100%;
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+   
 }
+
+.button-black{
+    background: #23272A;
+    color: white;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
 
 /* Main */
 
