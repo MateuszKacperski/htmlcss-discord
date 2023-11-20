@@ -23,36 +23,56 @@ body{
 
 /* Header */
 
-/*  Class header-main countainer proprietes */
+/*  Class nav-main countainer proprietes */
 
 .nav-top{
-    background-color: #ADD8E6;
+    background-color: #3161e0;
     min-height: 25px;
 }
 
-/*main countainer header*/
-.hmc{
+/*nav countainer header*/
+.nav-cont{
     
     align-items: center;
     min-height: 50px;
 }
 
+.nav-box-logo{
+    flex-basis: 20%;
+}
 
-.small{
-    width: 20%;
+.lista{
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
 }
 
 
-.big{
-    width: 60%;
+
+.button{
+    background: #ffffff;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 5px 10px;
+}
+.nav-box-button{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
-.box-header{
-    background-color: #DAA520;
-    border: 2px dotted black;
+
+.nav-box{
+    flex-basis: 60%;
     min-height: 25px;
 }
+
+
+
 
 /* Class Footer countainer proprietes */
 
